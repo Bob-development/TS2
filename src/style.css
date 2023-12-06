@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+button{
+    color: aliceblue;
+    background-color: inherit;
+    font-size: 25px;
+    border: 1px solid magenta;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.buttons-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.data{
+    margin-top: 20px;
+    background-color: rgb(80, 2, 80);
+    display: grid;
+    gap: 2rem;
+    font-size: 25px;
+    width: 300px;
+}
